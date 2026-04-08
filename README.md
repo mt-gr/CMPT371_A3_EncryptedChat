@@ -11,8 +11,10 @@
 ## Limitations
 Simultaneous users:
 The following application is designed to only support a 1-on-1 chat, and once a user disconnects the session is over and a new server must be established to continue chatting.
+---
 TCP Implenentation:
 The program uses TCP/IP to garuntee message delivery.
+---
 End-to-end encryption:
 The limitation of simultaenous users comes up in the implementation of the encryption, in order to be most secure keys are only shared between two users.
 
